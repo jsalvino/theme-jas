@@ -1,6 +1,6 @@
 <?php
 /*
-  Template Name: Home
+  Template Name: About
 */
 
 add_action( 'wp_head', 'vr_set_featured_background', 99);
@@ -31,15 +31,23 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
 <?php get_header();  ?>
 
-<div class="main main-home">
+<div class="main main-about">
   <div class="container">
 
     <div class="content">
+      <!-- <h2>ABOUT ME</h2> -->
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <h2><?php //the_title(); ?></h2>
-        <?php the_content(); ?>
+        <div class="about-image">
+          <img src="images/John Salvino.jpg"alt="">
+          <!-- <img src="http://localhost:8888/John%20Salvino/images/John%20Salvino.jpg" alt=""> -->
+        </div> <!-- </div> -->
+        <div class="about-text">
+          <?php the_content(); ?>
+        </div> <!-- about-text -->
+        <!-- <img src="../images/John Salvino.jpg"> -->
 
       <?php endwhile; // end the loop?>
     </div> <!-- /,content -->

@@ -1,6 +1,6 @@
 <?php
 /*
-  Template Name: Home
+  Template Name: Contact
 */
 
 add_action( 'wp_head', 'vr_set_featured_background', 99);
@@ -15,7 +15,7 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
        margin:0!important;
        }
        body {
-       /*.main-home .container {*/
+       /*.main .container {*/
        background: url(<?php echo $image_url[0]; ?>) #000 center top;
        background-size: contain;
        height: 100vh;
@@ -31,14 +31,14 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
 <?php get_header();  ?>
 
-<div class="main main-home">
+<div class="main main-contact">
   <div class="container">
 
     <div class="content">
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-        <h2><?php //the_title(); ?></h2>
+        <h2><?php the_title(); ?></h2>
         <?php the_content(); ?>
 
       <?php endwhile; // end the loop?>

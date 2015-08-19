@@ -10,6 +10,8 @@
 @import 'normalize';
 @import 'typography';
 @import 'navigation';
+@import 'contact';
+@import 'about';
 @import 'sidebar';
 @import 'comments';
 @import 'footer';
@@ -26,6 +28,9 @@ img {
 body {
 	color: #333;
 	display: flex;
+	// border: 1px solid green;
+	// flex-direction: column;
+	position: relative;
 }
 
 .container {
@@ -33,11 +38,11 @@ body {
 	margin: 0 auto;
 }
 
-.content {
-	float: left;
-	width: 65%;
-	margin-right: 5%;
-}
+// .content {
+// 	float: left;
+// 	width: 65%;
+// 	margin-right: 5%;
+// }
 
 .full {
 	width: 100%;
