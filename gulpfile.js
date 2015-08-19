@@ -12,6 +12,7 @@ gulp.task('styles', function() {
 			errLogToConsole: true
 		}))
 		.pipe(concat('style.css'))
+		.pipe(autoprefixer('last 2 version'))
 		.pipe(gulp.dest('.'));
 });
 
