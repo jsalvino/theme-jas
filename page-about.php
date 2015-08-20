@@ -41,13 +41,12 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
         <h2><?php //the_title(); ?></h2>
         <div class="about-image">
-          <img src="images/John Salvino.jpg"alt="">
-          <!-- <img src="http://localhost:8888/John%20Salvino/images/John%20Salvino.jpg" alt=""> -->
+          <img src="<?php bloginfo('template_directory'); ?>/images/John Salvino.jpg"alt="">
+
         </div> <!-- </div> -->
         <div class="about-text">
           <?php the_content(); ?>
         </div> <!-- about-text -->
-        <!-- <img src="../images/John Salvino.jpg"> -->
 
       <?php endwhile; // end the loop?>
     </div> <!-- /,content -->
