@@ -3,17 +3,18 @@
 	width: 80%;
 	background: rgba(255, 255, 255, 1);
 	margin: 0 auto;
+	// margin: auto;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
-.portfolio-container {
+.main-portfolio .container {
 	display: flex;
 	margin: auto;
 }
 
-.portfolio-container p {
+.main-portfolio p {
 	font-weight: 300;
 }
 

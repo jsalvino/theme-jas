@@ -1,6 +1,6 @@
 <?php
 /*
-  Template Name: Contact
+  Template Name: Skills
 */
 
 add_action( 'wp_head', 'vr_set_featured_background', 99);
@@ -15,7 +15,6 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
        margin:0!important;
        }
        body {
-       /*.main .container {*/
        background: url(<?php echo $image_url[0]; ?>) #000 center top;
        background-size: contain;
        height: 100vh;
@@ -26,27 +25,21 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 } //end vr_set_featured_background() function
 //get_header();  ?>
 
-
 <?php get_header();  ?>
 
-<div class="main main-contact">
+<div class="main main-about">
   <div class="container">
-    <!-- <div class="content"> -->
-      <div class="contact-form">
-        <?php // Start the loop ?>
-        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-        <h2><?php //the_title(); ?></h2>
-        <?php the_content(); ?>
-      </div> <!-- contact-form -->
-      <div class="contact-text">
-        <p><?php the_field('contact_tagline'); ?></p>
-        <p><?php the_field('contact_summary'); ?></p>
+    <div class="content">
+      <?php // Start the loop ?>
+      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-        <a href="mailto:john@johnsalvino.com"><i class="fa fa-envelope-o"></i></a>
-      </div> <!-- contact-text -->
+        <h2><?php //the_title(); ?></h2>
+        
+          <?php the_content(); ?>
+      
 
       <?php endwhile; // end the loop?>
-    <!-- </div> /,content -->
+    </div> <!-- /,content -->
 
     <?php //get_sidebar(); ?>
 
