@@ -15,7 +15,6 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
        margin:0!important;
        }
        body {
-       /*.main-home .container {*/
        background: url(<?php echo $image_url[0]; ?>) #000 center top;
        background-size: contain;
        height: 100vh;
@@ -26,16 +25,11 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 } //end vr_set_featured_background() function
 //get_header();  ?>
 
-
-
-
 <?php get_header();  ?>
 
 <div class="main main-about">
   <div class="container">
-
     <div class="content">
-      <!-- <h2>ABOUT ME</h2> -->
       <?php // Start the loop ?>
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 

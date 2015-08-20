@@ -26,9 +26,6 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 } //end vr_set_featured_background() function
 //get_header();  ?>
 
-
-
-
 <?php get_header();  ?>
 
 <div class="main main-portfolio">
@@ -41,18 +38,21 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
               <img src="<?php bloginfo('template_directory'); ?>/images/samuel-bay.png"alt="">
               <h4>PSD to HTML Reponsive Project</h4>
               <p>Build a fully responsive website based on a PSD design</p>
+              <button>View Live</button>
         </div> <!-- portfolio-item -->
 
         <div class="portfolio-item">
               <img src="<?php bloginfo('template_directory'); ?>/images/samuel-bay.png"alt="">
               <h4>API Project</h4>
               <p>Build a project based on the Flickr API</p>
+              <button>View Live</button>
         </div> <!-- portfolio-item -->
 
         <div class="portfolio-item">
               <img src="<?php bloginfo('template_directory'); ?>/images/samuel-bay.png"alt="">
               <h4>Wordpress Theme Project</h4>
               <p>Build a Wordpress site for a restaurant</p>
+              <button>View Live</button>
         </div> <!-- portfolio-item -->
 
               <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>

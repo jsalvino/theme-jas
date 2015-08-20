@@ -27,22 +27,24 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 //get_header();  ?>
 
 
-
-
 <?php get_header();  ?>
 
 <div class="main main-contact">
   <div class="container">
-
-    <div class="content">
-      <?php // Start the loop ?>
-      <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
+    <!-- <div class="content"> -->
+      <div class="contact-form">
+        <?php // Start the loop ?>
+        <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
         <h2><?php //the_title(); ?></h2>
         <?php the_content(); ?>
+      </div> <!-- contact-form -->
+      <div class="contact-text">
+        <p><?php the_field('contact_tagline'); ?></p>
+        <p><?php the_field('contact_summary'); ?></p>
+      </div> <!-- contact-text -->
 
       <?php endwhile; // end the loop?>
-    </div> <!-- /,content -->
+    <!-- </div> /,content -->
 
     <?php //get_sidebar(); ?>
 

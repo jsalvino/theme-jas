@@ -3,31 +3,23 @@
 	width: 80%;
 	background: rgba(255, 255, 255, 1);
 	margin: 0 auto;
-	// border: 1px solid yellow;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
-// .main-portfolio .content {
-// 	display: flex;
-// 	flex-wrap: wrap;
-// 	justify-content: space-around;
-// 	align-items: center;
-// 	border: 1px solid green;	
-// }
-
-.portfolio-item {
-	width: 33%;
-	padding: 0 5px;
-	text-align: center;
-}
-
-.portfolio-item img {
-	padding: 0 5px;
-}
 .portfolio-container {
 	display: flex;
 	margin: auto;
+}
+
+.portfolio-container p {
+	font-weight: 300;
+}
+
+.portfolio-item {
+	width: 33%;
+	margin: 0 15px;
+	text-align: center;
 }
 
