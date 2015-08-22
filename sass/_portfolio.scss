@@ -3,24 +3,61 @@
 	width: 80%;
 	background: rgba(255, 255, 255, 1);
 	margin: 0 auto;
-	// margin: auto;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-}
-
-.main-portfolio .container {
-	display: flex;
-	margin: auto;
 }
 
 .main-portfolio p {
 	font-weight: 300;
 }
 
-.portfolio-item {
-	width: 33%;
-	margin: 0 15px;
-	text-align: center;
+.main-portfolio .container {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
 }
 
+.main-portfolio .portfolio-title {
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.main-portfolio .portfolio-items {
+	display: flex;
+	flex-direction: row;
+}
+
+.main-portfolio .portfolio-item:first-child {
+	margin-left: 3%;
+}
+
+.main-portfolio .portfolio-item {
+	width: calc(100%/3);
+	text-align: center;
+	position: relative;
+	padding-bottom: 30px;
+	margin-right: 3%;
+}
+
+.main-portfolio .portfolio-item a {
+	position: absolute;
+	bottom: 0;
+	left: 25%;
+	margin-top: 20px;
+	padding: 10px 20px;
+	border: 1px solid darkgrey;
+	background: none;
+	color: black;
+	font-weight: 300;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+}
+
+.main-portfolio .portfolio-item a:visited {
+	// background: rgba(0, 0, 0, 1);
+	color: black;
+}
+
+.main-portfolio .portfolio-item a:hover {
+	background: rgba(0, 0, 0, 1);
+	color: white;
+}

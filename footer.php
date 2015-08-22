@@ -12,10 +12,11 @@
     </div> <!-- footer-nav -->
     <div class="footer-social">
 	    <ul>
-			<a href="https://twitter.com/jsalvino" target="_blank"><li><i class="fa fa-twitter"></i></li></a>
-			<a href="https://www.linkedin.com/pub/john-salvino/0/3b3/6b9" target="_blank"><li><i class="fa fa-linkedin" target="_blank"></i></li></a>
-			<a href="https://www.flickr.com/photos/jsalvino/" target="_blank"><li><i class="fa fa-flickr"></i></li></a>
-			<a href="https://github.com/jsalvino" target="_blank"><li><i class="fa fa-github" target="_blank"></i></li></a>
+			<li><a href="https://twitter.com/jsalvino" target="_blank"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://www.linkedin.com/pub/john-salvino/0/3b3/6b9" target="_blank"><li><i class="fa fa-linkedin" target="_blank"></i></a></li>
+			<li><a href="https://github.com/jsalvino" target="_blank"><i class="fa fa-github" target="_blank"></i></a></li>
+			<li><a href="https://www.flickr.com/photos/jsalvino/" target="_blank"><i class="fa fa-flickr"></i></a></li>
+			<li><a href="https://www.instagram.com/jsalvino/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 		</ul>
   	</div> <!-- footer-social -->
   </div>

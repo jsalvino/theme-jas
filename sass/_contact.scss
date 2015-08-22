@@ -11,8 +11,15 @@
 
 .main-contact .container {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 4% 0;
+	text-align: center;
+}
+
+.main-contact .contact-title {
+	width: 100%;
+	text-transform: uppercase;
 }
 
 .main-contact .contact-form {
@@ -50,12 +57,12 @@
 	border: none;
 	border: 1px solid darkgrey;
 	resize: none;
-	}
+}
 
 .main-contact textarea {
 	height: 10rem;
 	margin-bottom: 1rem;
-	}
+}
 
 .main-contact input[type="submit"] {
 	width: 25%;

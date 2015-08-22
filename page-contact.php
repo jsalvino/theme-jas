@@ -32,16 +32,17 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 <div class="main main-contact">
   <div class="container">
     <!-- <div class="content"> -->
+      <div class="contact-title">
+        <h2><?php the_title(); ?></h2>
+      </div> <!-- contact-title --> 
       <div class="contact-form">
         <?php // Start the loop ?>
         <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-        <h2><?php //the_title(); ?></h2>
         <?php the_content(); ?>
       </div> <!-- contact-form -->
       <div class="contact-text">
         <p><?php the_field('contact_tagline'); ?></p>
         <p><?php the_field('contact_summary'); ?></p>
-
         <a href="mailto:john@johnsalvino.com"><i class="fa fa-envelope-o"></i></a>
       </div> <!-- contact-text -->
 
