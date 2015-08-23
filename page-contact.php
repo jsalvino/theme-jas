@@ -29,7 +29,7 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
 <?php get_header();  ?>
 
-<div class="main main-contact">
+<div class="main main-contact animated fadeIn">
   <div class="container">
     <!-- <div class="content"> -->
       <div class="contact-title">

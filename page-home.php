@@ -31,7 +31,7 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
 <?php get_header();  ?>
 
-<div class="main main-home">
+<div class="main main-home animated fadeIn">
   <div class="container">
 
     <div class="content">

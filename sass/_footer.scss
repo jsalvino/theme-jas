@@ -61,16 +61,13 @@ footer .footer-social ul {
 	padding: 0;
 }
 
-// .footer-social img {
-//   float: right;
-//   margin-left: 15px;
-// }
-
 .footer-social i {
   font-size: 20px;
   padding: 0 3px;
 }
 
-// nav a:hover {
-//   color: #fa5c5d;
-// }
+footer .container .footer-nav li a:hover,
+footer .container .footer-social li .fa:hover  {
+  transition: all 0.3s ease;
+  color: crimson;
+}

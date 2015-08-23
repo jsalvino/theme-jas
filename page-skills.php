@@ -27,7 +27,7 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
 <?php get_header();  ?>
 
-<div class="main main-about">
+<div class="main main-about animated fadeIn">
   <div class="container">
     <div class="content">
       <?php // Start the loop ?>

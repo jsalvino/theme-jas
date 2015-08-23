@@ -27,7 +27,7 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
 <?php get_header();  ?>
 
-<div class="main main-portfolio">
+<div class="main main-portfolio animated fadeIn">
   <div class="container">
     <div class="portfolio-title">
       <h2><?php the_title(); ?></h2>
