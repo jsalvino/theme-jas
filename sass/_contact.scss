@@ -83,3 +83,27 @@
 .main-contact i {
 	font-size: 60px;
 }
+
+@media all and (max-width: 940px) {
+	.main-contact {
+		width: 90%;
+		text-align: center;
+		padding-top: 25%;
+		height: auto;
+	}
+
+	.main-contact .contact-title {
+		order: -2;
+	}
+
+	.main-contact .contact-text {
+		order: -1;
+		width: 80%;
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	.main-contact .contact-form {
+		width: 75%;
+	}
+}

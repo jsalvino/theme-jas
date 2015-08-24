@@ -15,18 +15,22 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
        margin:0!important;
        }
        body {
-       /*.main-home .container {*/
        background: url(<?php echo $image_url[0]; ?>) #000 center top;
        background-size: contain;
        height: 100vh;
        }
+       @media all and (max-width: 940px) {
+        body {
+          height: auto;
+          background-size: cover;
+          background-position: center top;
+        }
+      }
      </style>
    <?php
  }  //end if statement
 } //end vr_set_featured_background() function
 //get_header();  ?>
-
-
 
 
 <?php get_header();  ?>
@@ -39,7 +43,7 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
       <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
         <h2><?php //the_title(); ?></h2>
-        <?php the_content(); ?>
+        <?php //the_content(); ?>
 
       <?php endwhile; // end the loop?>
     </div> <!-- /,content -->

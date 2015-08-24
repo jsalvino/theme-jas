@@ -19,6 +19,11 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
        background-size: contain;
        height: 100vh;
        }
+       @media all and (max-width: 940px) {
+        body {
+          height: auto;
+        }
+      }
      </style>
    <?php
  }  //end if statement

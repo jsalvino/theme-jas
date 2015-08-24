@@ -1,6 +1,5 @@
 footer {
 	clear: both;
-	// align-self: flex-end;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
@@ -9,7 +8,6 @@ footer {
 }
 
 footer .container {
-	// border: 1px solid yellow;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -70,4 +68,37 @@ footer .container .footer-nav li a:hover,
 footer .container .footer-social li .fa:hover  {
   transition: all 0.3s ease;
   color: crimson;
+}
+
+@media all and (max-width: 940px) {
+	footer {
+		top: 0;
+	}
+	
+	footer .container {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	footer .footer-logo {
+		padding: 0 3px;
+		width: 50%;
+		text-align: left;
+	}
+
+	footer .footer-nav {
+		order: 1;
+		width: 100%;
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	footer .footer-social {
+		justify-content: flex-end;
+		width: 50%;
+	}
+
+	.footer-social i {
+		font-size: 15px;
+	}
 }

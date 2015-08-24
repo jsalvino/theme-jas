@@ -15,10 +15,14 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
        margin:0!important;
        }
        body {
-       /*.main .container {*/
        background: url(<?php echo $image_url[0]; ?>) #000 center top;
        background-size: contain;
        height: 100vh;
+       }
+       @media all and (max-width: 940px) {
+        body {
+          height: auto;
+        }
        }
      </style>
    <?php

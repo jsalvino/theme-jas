@@ -61,3 +61,24 @@
 	background: rgba(0, 0, 0, 1);
 	color: white;
 }
+
+@media all and (max-width: 940px) {
+	.main-portfolio {
+		width: 90%;
+		text-align: center;
+		padding-top: 25%;
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	.main-portfolio .portfolio-items {
+		flex-direction: column;
+	}
+
+	.main-portfolio .portfolio-item {
+		width: 90%;
+		margin: 0 auto;
+		// padding: 10px 0;
+		padding-bottom: 50px;
+	}
+}

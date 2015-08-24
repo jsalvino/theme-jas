@@ -18,18 +18,35 @@
 	width: 100%;
 	text-align: center;
 	text-transform: uppercase;
-	// border: 1px solid green;
 }
 
 .main-about .about-text {
 	width: 40%;
 	font-weight: 300;
-	// border: 1px solid yellow;
 }
 
 .main-about img {
 	height: 300px;
 	width: 300px;
 	margin-left: 50px;
-	// border: 1px solid red;
+}
+
+@media all and (max-width: 940px) {
+	.main-about {
+		width: 90%;
+		text-align: center;
+		padding-top: 25%;
+		padding-bottom: 20%;
+		height: auto;
+	}
+
+	.main-about .about-text {
+		width: 80%;
+	}
+
+	.main-about img {
+		height: 175px;
+		width: 175px;
+		margin: 0 auto;
+	}
 }
