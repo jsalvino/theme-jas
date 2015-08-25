@@ -48,16 +48,21 @@ footer .container .footer-nav li a {
 	font-weight: 300;
 }
 
-footer .footer-social {
+.footer-social {
 	display: flex;
 	flex-direction: row;
 }
 
-footer .footer-social li {
+.footer-social-bottom {
+	display: none;
+	flex-direction: row;
+}
+
+.footer-social li {
 	display: inline-block;
 }
 
-footer .footer-social ul {
+.footer-social ul {
 	padding: 0;
 }
 
@@ -75,6 +80,7 @@ footer .container .footer-social li .fa:hover  {
 @media all and (max-width: 940px) {
 	footer {
 		top: 0;
+		height: 125px;
 	}
 	
 	footer .container {
@@ -84,9 +90,12 @@ footer .container .footer-social li .fa:hover  {
 		padding: 0;
 	}
 
+	.footer-logo h3 {
+		font-size: 22px;
+	}
 
 	.footer-logo h4 {
-		font-size: 14px;
+		font-size: 15px;
 		border-bottom: 1px solid grey;
 	}
 
@@ -98,15 +107,23 @@ footer .container .footer-social li .fa:hover  {
 		flex-wrap: nowrap;
 	}
 
-	footer .footer-social {
-		position: absolute;
+	.footer-social {
+		display: none;
+	}
+
+	.footer-social-bottom {
+		display: flex;
+		width: 100%;
 		justify-content: center;
-		bottom: 0;
-		padding: 0;
-		margin-left: auto;
-		margin-right: auto;
-		left: 0;
-		right: 0;
+		margin-top: 20px;
+		border-top: 1px solid lightgrey;
+		// position: absolute;
+		// bottom: 0;
+		// padding: 0;
+		// margin-left: auto;
+		// margin-right: auto;
+		// left: 0;
+		// right: 0;
 	}
 	
 	footer .footer-logo {
@@ -120,9 +137,10 @@ footer .container .footer-social li .fa:hover  {
 		width: 100%;
 		text-align: center;
 		padding-top: 5%;
+		padding-bottom: 3%;
 	}
 
-	footer.footer-social i {
+	footer .footer-social i {
 		font-size: 16px;
 	}
 }
@@ -131,6 +149,5 @@ footer .container .footer-social li .fa:hover  {
 @media all and (max-width: 350px) {
 	.footer-logo h4 {
 		font-size: 12px;
-		border-bottom: 1px solid grey;
 	}
 }

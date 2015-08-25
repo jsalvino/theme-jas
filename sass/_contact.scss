@@ -107,7 +107,7 @@
 		width: 90%;
 		text-align: center;
 		padding-top: 31%;
-		padding-bottom: 20%;
+		padding-bottom: 1%;
 		height: auto;
 	}
 
@@ -128,7 +128,7 @@
 	.main-contact input[type="submit"] {
 		width: 100%;
 	}
-	
+
 	.main-contact .email {
 		font-size: 26px;
 	}
@@ -137,4 +137,9 @@
 		width: 75%;
 		padding: 0;
 	}
+
+	.contact-form {
+		z-index: 10;
+	}
+
 }

@@ -48,11 +48,25 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
         <p><?php the_field('contact_summary'); ?></p>
         <p>Fill out the form or email me at <a href="mailto:john@johnsalvino.com"><span class="email">john@johnsalvino.com</span></a></p>
       </div> <!-- contact-text -->
+      <div class="footer-social footer-social-bottom">
+        <ul>
+          <li><a href="https://twitter.com/jsalvino" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/pub/john-salvino/0/3b3/6b9" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+          <li><a href="https://github.com/jsalvino" target="_blank"><i class="fa fa-github" target="_blank"></i></a></li>
+          <li><a href="https://www.flickr.com/photos/jsalvino/" target="_blank"><i class="fa fa-flickr"></i></a></li>
+          <li><a href="https://www.instagram.com/jsalvino/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div> <!-- footer-social-bottom-->
+
 
       <?php endwhile; // end the loop?>
     <!-- </div> /,content -->
 
     <?php //get_sidebar(); ?>
+
+      
+
+
 
   </div> <!-- /.container -->
 </div> <!-- /.main -->
