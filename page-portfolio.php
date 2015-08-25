@@ -74,23 +74,6 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 
              <a href="<?php echo the_field('project_url'); ?>" target="_blank">View Live Site</a>
              <p><?php //the_field('project_url'); ?></p>
-             <ul>
-               <?php 
-               //to loop through a repeater field
-               //we need to use a while loop and has sub_field() function
-               //this will be true for as long as we have an item in our
-               //repeater
-                   while(has_sub_field('technologies')) {
-               ?>
-                 <?php
-                 //we then just use the sub_field() function
-                 //to get the sub field
-                 ?>
-                   <li><?php the_sub_field('technology') ?></li>
-               <?php
-                 }
-                ?>
-                     </ul>
         </div> <!-- portfolio-item -->
                <?php
                    }

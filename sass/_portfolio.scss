@@ -68,27 +68,35 @@
 		text-align: center;
 		padding-top: 35%;
 		height: auto;
-		padding-bottom: 50px;
+		padding-bottom: 25%;
 	}
 	
 	.main-portfolio .portfolio-title {
 		text-align: center;
+		padding: 0;
+	}
+
+	.main-portfolio .portfolio-title  h2 {
+		margin: 0;
 	}
 
 	.main-portfolio .portfolio-items {
 		flex-direction: column;
 	}
 
+	.main-portfolio .portfolio-item:first-child {
+		margin: 0 auto;
+	}
+
 	.main-portfolio .portfolio-item {
 		width: 90%;
 		margin: 0 auto;
-		// padding: 10px 0;
+		padding-top: 5%;
 		text-align: center;
-		padding-bottom: 50px;
+		padding-bottom: 10%;
 	}
 
 	.main-portfolio .portfolio-item a {
-		// left: 27%;
 		width: 55%;
 		margin-left: auto;
 		margin-right: auto;
