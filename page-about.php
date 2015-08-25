@@ -45,8 +45,13 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
         </div> <!-- </div> -->
         <div class="about-text">
           <?php the_content(); ?>
+          <img src="<?php bloginfo('template_directory'); ?>/images/html5.svg" alt="">
+          <img src="<?php bloginfo('template_directory'); ?>/images/css3.svg" alt="">
+          <img src="<?php bloginfo('template_directory'); ?>/images/js_badge.svg" alt="">
+          <img src="<?php bloginfo('template_directory'); ?>/images/jquery_logo.svg" alt="">
+          <img src="<?php bloginfo('template_directory'); ?>/images/wordpress.svg" alt="">
+          <img src="<?php bloginfo('template_directory'); ?>/images/github.svg" alt="">
         </div> <!-- about-text -->
-
       <?php endwhile; // end the loop?>
     </div> <!-- /,content -->
 

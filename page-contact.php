@@ -30,7 +30,6 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
 } //end vr_set_featured_background() function
 //get_header();  ?>
 
-
 <?php get_header();  ?>
 
 <div class="main main-contact animated fadeIn">
@@ -47,7 +46,7 @@ add_action( 'wp_head', 'vr_set_featured_background', 99);
       <div class="contact-text">
         <p><?php the_field('contact_tagline'); ?></p>
         <p><?php the_field('contact_summary'); ?></p>
-        <a href="mailto:john@johnsalvino.com"><i class="fa fa-envelope-o"></i></a>
+        <p>Fill out the form or email me at <a href="mailto:john@johnsalvino.com"><span class="email">john@johnsalvino.com</span></a></p>
       </div> <!-- contact-text -->
 
       <?php endwhile; // end the loop?>

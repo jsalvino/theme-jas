@@ -17,13 +17,13 @@
 
 .main-portfolio .portfolio-title {
 	width: 100%;
-	text-align: center;
+	text-align: left;
+	padding-left: 3%;
 	text-transform: uppercase;
 }
 
 .main-portfolio .portfolio-items {
 	display: flex;
-	flex-direction: row;
 }
 
 .main-portfolio .portfolio-item:first-child {
@@ -32,16 +32,17 @@
 
 .main-portfolio .portfolio-item {
 	width: calc(100%/3);
-	text-align: center;
+	text-align: left;
 	position: relative;
 	padding-bottom: 30px;
 	margin-right: 3%;
+	overflow: hidden;
 }
 
 .main-portfolio .portfolio-item a {
 	position: absolute;
 	bottom: 0;
-	left: 25%;
+	left: 0;
 	margin-top: 20px;
 	padding: 10px 20px;
 	border: 1px solid darkgrey;
@@ -53,7 +54,6 @@
 }
 
 .main-portfolio .portfolio-item a:visited {
-	// background: rgba(0, 0, 0, 1);
 	color: black;
 }
 
@@ -66,9 +66,13 @@
 	.main-portfolio {
 		width: 90%;
 		text-align: center;
-		padding-top: 25%;
+		padding-top: 35%;
 		height: auto;
 		padding-bottom: 50px;
+	}
+	
+	.main-portfolio .portfolio-title {
+		text-align: center;
 	}
 
 	.main-portfolio .portfolio-items {
@@ -79,6 +83,16 @@
 		width: 90%;
 		margin: 0 auto;
 		// padding: 10px 0;
+		text-align: center;
 		padding-bottom: 50px;
+	}
+
+	.main-portfolio .portfolio-item a {
+		// left: 27%;
+		width: 55%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
 	}
 }

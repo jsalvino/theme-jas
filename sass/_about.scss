@@ -16,7 +16,8 @@
 
 .main-about .about-title {
 	width: 100%;
-	text-align: center;
+	text-align: left;
+	padding-left: 10%;
 	text-transform: uppercase;
 }
 
@@ -25,7 +26,7 @@
 	font-weight: 300;
 }
 
-.main-about img {
+.main-about .about-image img {
 	height: 300px;
 	width: 300px;
 	margin-left: 50px;
@@ -39,12 +40,18 @@
 		padding-bottom: 20%;
 		height: auto;
 	}
+	
+	.main-about .about-title {
+		text-align: center;
+		padding: 0;
+		padding-top: 10%;
+	}
 
 	.main-about .about-text {
 		width: 80%;
 	}
 
-	.main-about img {
+	.main-about .about-image img {
 		height: 175px;
 		width: 175px;
 		margin: 0 auto;

@@ -14,10 +14,11 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	padding: 4% 0;
-	text-align: center;
 }
 
 .main-contact .contact-title {
+	text-align: left;
+	padding-left: 8%;
 	width: 100%;
 	text-transform: uppercase;
 }
@@ -84,26 +85,49 @@
 	font-size: 60px;
 }
 
+.main-contact .email {
+	font-size: 30px;
+}
+
+.main-contact a {
+	color: black;
+}
+
+.main-contact a:visited {
+	color: black;
+}
+
+.main-contact a:hover {
+	transition: all 0.3s ease;
+	color: crimson;
+}
+
+
 @media all and (max-width: 940px) {
 	.main-contact {
 		width: 90%;
 		text-align: center;
-		padding-top: 25%;
+		padding-top: 31%;
+		padding-bottom: 20%;
 		height: auto;
 	}
 
 	.main-contact .contact-title {
 		order: -2;
+		text-align: center;
+		padding: 0;
 	}
 
 	.main-contact .contact-text {
 		order: -1;
 		width: 80%;
 		text-align: center;
+		padding: 0;
 		padding-bottom: 50px;
 	}
 
 	.main-contact .contact-form {
 		width: 75%;
+		padding: 0;
 	}
 }
