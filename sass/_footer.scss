@@ -40,6 +40,10 @@ footer .container {
 	font-size: 18px;
 }
 
+footer .container .footer-nav li {
+	padding: 0 15px;
+}
+
 footer .container .footer-nav li a {
 	color: black;
 	padding: 0;
@@ -99,12 +103,15 @@ footer .container .footer-social li .fa:hover  {
 		border-bottom: 1px solid grey;
 	}
 
-
 	footer .footer-logo {
 		width: 100%;
 		align-items: center;
 		flex-direction: column;
 		flex-wrap: nowrap;
+	}
+
+	footer .container .footer-nav li {
+		padding: 0 5px;
 	}
 
 	.footer-social {
@@ -154,5 +161,9 @@ footer .container .footer-social li .fa:hover  {
 
 	.footer-logo h4 {
 		font-size: 12px;
+	}
+
+	footer .container .footer-nav li {
+		padding: 0 4px;
 	}
 }
