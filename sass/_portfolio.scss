@@ -104,3 +104,16 @@
 		right: 0;
 	}
 }
+
+
+@media all and (max-width: 350px) {
+	.main-portfolio .portfolio-item {
+		padding-bottom: 20%;
+		padding-top: 10%;
+	}
+
+	.main-portfolio .portfolio-item a {
+		width: 60%;
+		margin-top: 5px;
+	}
+}

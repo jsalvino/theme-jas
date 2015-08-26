@@ -147,6 +147,11 @@ footer .container .footer-social li .fa:hover  {
 
 
 @media all and (max-width: 350px) {
+	.footer-logo h3 {
+		font-size: 20px;
+		padding-top: 1%;
+	}
+
 	.footer-logo h4 {
 		font-size: 12px;
 	}

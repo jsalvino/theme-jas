@@ -141,5 +141,10 @@
 	.contact-form {
 		z-index: 10;
 	}
+}
 
+@media all and (max-width: 350px) {
+	.main-contact .email {
+		font-size: 24px;
+	}
 }
