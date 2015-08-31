@@ -13,7 +13,7 @@
     <div class="footer-social">
 	    <ul>
 			<li><a href="https://twitter.com/jsalvino" target="_blank"><i class="fa fa-twitter"></i></a></li>
-			<li><a href="https://www.linkedin.com/pub/john-salvino/0/3b3/6b9" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
+			<li><a href="https://ca.linkedin.com/in/salvinojohn" target="_blank"><i class="fa fa-linkedin" target="_blank"></i></a></li>
 			<li><a href="https://github.com/jsalvino" target="_blank"><i class="fa fa-github" target="_blank"></i></a></li>
 			<li><a href="https://www.flickr.com/photos/jsalvino/" target="_blank"><i class="fa fa-flickr"></i></a></li>
 			<li><a href="https://www.instagram.com/jsalvino/" target="_blank"><i class="fa fa-instagram"></i></a></li>
